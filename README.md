@@ -20,13 +20,14 @@ Free community-developed SignalRGB plugins for the Razer Naga V3 Pro. Two indepe
 
 1. Fully exit SignalRGB and back up any existing Naga V3 Pro plugin files.
 2. Remove or disable previous unified/experimental Naga V3 Pro plugins to avoid duplicate device matches.
-3. Extract the ZIP and copy either or both `.js` files (not the ZIP itself) into the SignalRGB custom plugin folder on Windows:
+3. Extract the ZIP and copy either or both `.js` files (not the ZIP itself) into the SignalRGB custom plugin folder on Windows.
 
-   `%USERPROFILE%\WhirlwindFX\Plugins` or `%USERPROFILE%\Documents\WhirlwindFX\Plugins`
+   Depending on your SignalRGB configuration, the custom plugin directory may be located at:
 
-   To open it, press **Win + R**, paste the path above, and press **Enter**. Create the `Plugins` folder if it does not already exist. If you configured a different plugin location, use that location instead.
-4. Restart SignalRGB. Open **Lighting → Layouts** and move the Side Panel, Scroll Wheel, and Logo zones apart if they initially overlap.
-5. Confirm lighting, custom keybinds, profile button, and sleep/wake behavior before changing optional performance settings.
+   - `%USERPROFILE%\Documents\WhirlwindFX\Plugins` (standard location)
+   - `%USERPROFILE%\WhirlwindFX\Plugins` (alternative location)
+
+   To open the folder, press **Win + R**, paste the appropriate path, and press **Enter**. If necessary, create the `Plugins` folder within the correct SignalRGB plugin directory. If you configured a different plugin location, use that location instead.
 
 ## Important compatibility notes
 
